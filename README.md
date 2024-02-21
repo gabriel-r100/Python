@@ -10,28 +10,59 @@
 
 We can output variables in strings by using f-strings.
 
-    name = "gabriel roque"
-    print(f"Hello {name.title()}!")
-    >>> Hello Gabriel Roque!
+    >>>name = "gabriel roque"
+    >>>print(f"Hello {name.title()}!")
+    Hello Gabriel Roque!
     
 </details>
 
 
+
+
 <h2>Functions and Methods</h2>
+
 <details><summary><h3>Functions</h3></summary>
 
   `print()` is a simple function that prints a provided string or variable of string type.
-  
-    print("string")
-    print(variable)
+
+    >>>variable = "gabriel"
+    >>>print("string")
+    string
+    >>>print(variable)
+    gabriel
   
 </details>
 
 <details><summary><h3>Methods</h3></summary>
 
-    string.title()
+  Methods used to update case, usually used to normalize input.
+  
+    >>>'gabriel roque'.title()
+    'Gabriel Roque'
+    >>>'Gabriel Roque.upper()
+    'GABRIEL ROQUE'
+    >>>'GABRIEL ROQUE'.lower()
+    'gabriel roque'
 
-    string.upper()
+  We can remove white text from strings using the `.strip()` method, we can even target the left or right with the respective `.lstrip()` and `.rstrip()` methods.
+  
+    >>>' gabriel '.strip()
+    'gabriel
 
-    string.lower()
+  
+</details>
+
+
+
+
+<details><summary><h3>Text Manipulation</h3></summary>
+
+  We can used `\n` to move text to the next line, `\t` to begin with an indent.
+
+    >>>print("Languages\n\tPython\n\tC\n\tJavaScript")
+    Languages
+        Python
+        C
+        JavaScript
+
 </details>
