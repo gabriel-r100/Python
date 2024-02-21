@@ -53,12 +53,22 @@ We can output variables in strings by using f-strings.
     >>>'GABRIEL ROQUE'.lower()
     'gabriel roque'
   </details>
+  
   <details><summary><h4>.strip()</h4></summary>
 
   We can remove white text from strings using the `.strip()` method, we can even target the left or right with the respective `.lstrip()` and `.rstrip()` methods.
   
     >>>' gabriel '.strip()
     'gabriel'
+    
+  </details>
+
+  <details><summary><h4>.removeprefix('string')</h4></summary>
+
+  We can remove prefixes from data, common use would be removing the `https://` prefix from a website.
+  
+    >>>'https://google.com'.removeprefix('https://')
+    'google.com'
     
   </details>
   
