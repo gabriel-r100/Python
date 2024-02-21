@@ -2,6 +2,7 @@
 
 <h2>Fundamentals</h2>
 <details open><summary><h3>Overview</h3></summary>
+  
   Python scripts will be saved as a `.py` extension file.<br>
   Variable names cannot start with either a letter or underscore, it can include numbers.<br>
   
@@ -63,9 +64,10 @@ We can output variables in strings by using f-strings.
     
   </details>
 
-  <details><summary><h4>.removeprefix('string')</h4></summary>
+  <details><summary><h4>.removeprefix('string') & .removesuffix('string')</h4></summary>
 
-  We can remove prefixes from data, common use would be removing the `https://` prefix from a website.
+  We can remove prefixes from data, common use would be removing the `https://` prefix from a website.<br>
+  Alternatively, we can remove a suffix with the same syntax and the `.removesuffix()` method.
   
     >>>'https://google.com'.removeprefix('https://')
     'google.com'
