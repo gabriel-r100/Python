@@ -21,8 +21,10 @@ We can output variables in strings by using f-strings.
 
 <h2>Functions and Methods</h2>
 
-<details><summary><h3>Functions</h3></summary>
+<details open><summary><h3>Functions</h3></summary>
 
+  <details><summary><h4>print()</h4></summary>
+    
   `print()` is a simple function that prints a provided string or variable of string type.
 
     >>>variable = "gabriel"
@@ -30,10 +32,17 @@ We can output variables in strings by using f-strings.
     string
     >>>print(variable)
     gabriel
+  </details>
+
   
 </details>
 
-<details><summary><h3>Methods</h3></summary>
+
+
+
+<details open><summary><h3>Methods</h3></summary>
+
+  <details><summary><h4>.title(), .lower(), .upper()</h4></summary>
 
   Methods used to update case, usually used to normalize input.
   
@@ -43,19 +52,24 @@ We can output variables in strings by using f-strings.
     'GABRIEL ROQUE'
     >>>'GABRIEL ROQUE'.lower()
     'gabriel roque'
+  </details>
+  <details><summary><h4>.strip()</h4></summary>
 
   We can remove white text from strings using the `.strip()` method, we can even target the left or right with the respective `.lstrip()` and `.rstrip()` methods.
   
     >>>' gabriel '.strip()
-    'gabriel
-
+    'gabriel'
+    
+  </details>
   
 </details>
 
 
 
 
-<details><summary><h3>Text Manipulation</h3></summary>
+<details open><summary><h3>Text Manipulation</h3></summary>
+
+  <details><summary><h4>New Lines and Tabs in Strings</summary>
 
   We can used `\n` to move text to the next line, `\t` to begin with an indent.
 
@@ -64,5 +78,5 @@ We can output variables in strings by using f-strings.
         Python
         C
         JavaScript
-
+  </details>
 </details>
