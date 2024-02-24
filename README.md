@@ -1,5 +1,7 @@
 <h1>Python</h1>
 
+[Python Crash Course code](https://github.com/gabriel-r100/Python_Crash_Course)
+
 <h2>Fundamentals</h2>
 <details open><summary><h3>Overview</h3></summary>
   
