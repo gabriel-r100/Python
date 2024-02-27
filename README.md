@@ -3,7 +3,7 @@
 [Python Crash Course code](https://github.com/gabriel-r100/Python_Crash_Course)
 
 <h2>Fundamentals</h2>
-<details open><summary><h3>Overview</h3></summary>
+<details><summary><h3>Overview</h3></summary>
   
   Python scripts will be saved as a `.py` extension file.<br>
   Variable names cannot start with either a letter or underscore, it can include numbers.<br>
