@@ -8,8 +8,7 @@
   Python scripts will be saved as a `.py` extension file.<br>
   Variable names cannot start with either a letter or underscore, it can include numbers.<br>
   
-  - `message_1` is ok
-  - <s>`1_message`</s> does not work
+  - `message_1` is ok, <s>`1_message`</s> does not work
 
 We can output variables in strings by using f-strings.
 
