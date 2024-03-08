@@ -3,7 +3,7 @@
 [Python Crash Course code](https://github.com/gabriel-r100/Python_Crash_Course)
 
 <h2>Fundamentals</h2>
-<details><summary><h3>Overview</h3></summary>
+<details><summary><b>Overview</b></summary>
   
   Python scripts will be saved as a `.py` extension file.<br>
   Variable names cannot start with either a letter or underscore, it can include numbers.<br>
@@ -42,7 +42,7 @@ We can output variable values in strings by using f-strings.
 
 
 
-<details open><summary><h3>Methods</h3></summary>
+<details><summary><b>Methods</b></summary>
 
   <details><summary><h4>.title(), .lower(), .upper()</h4></summary>
 
@@ -80,7 +80,15 @@ We can output variable values in strings by using f-strings.
 
 
 
-<details open><summary><h3>Text Manipulation</h3></summary>
+<details><summary><b>Statements</b></summary>
+
+
+</details>
+
+
+
+
+<details><summary><b>Text Manipulation</b></summary>
 
   <details><summary><h4>New Lines and Tabs in Strings</summary>
 
