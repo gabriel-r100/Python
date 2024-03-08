@@ -10,7 +10,7 @@
   
   - `message_1` is ok, <s>`1_message`</s> does not work
 
-We can output variables in strings by using f-strings.
+We can output variable values in strings by using f-strings.
 
     >>>name = "gabriel roque"
     >>>print(f"Hello {name.title()}!")
@@ -21,9 +21,9 @@ We can output variables in strings by using f-strings.
 
 
 
-<h2>Functions and Methods</h2>
+<h2>Functions, Methods, and Statements</h2>
 
-<details open><summary><h3>Functions</h3></summary>
+<details><summary><b>Functions</b></summary>
 
   <details><summary><h4>print()</h4></summary>
     
